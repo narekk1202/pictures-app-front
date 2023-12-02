@@ -34,7 +34,7 @@ function FileUpload({ func, base64Image, keyy, addImage }) {
 				) : (
 					<div className='w-full h-full'>
 						<img
-							className='w-full h-full'
+							className='w-full h-full rounded-lg'
 							src={`data:image/png;base64,${base64Image}`}
 							alt='user uploaded image'
 						/>
